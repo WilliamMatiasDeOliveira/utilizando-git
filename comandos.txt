@@ -1,1 +1,5 @@
 git init = comando para iniciar o git
+
+git config --global user.name william matias = para definir o nome de quem esta fazendo o comit
+
+ git config --global user.email williammatiasjau@hotmail.com = para adicionar tambem um e-mail

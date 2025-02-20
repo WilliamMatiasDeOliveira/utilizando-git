@@ -3,3 +3,74 @@ git init = comando para iniciar o git
 git config --global user.name william matias = para definir o nome de quem esta fazendo o comit
 
  git config --global user.email williammatiasjau@hotmail.com = para adicionar tambem um e-mail
+
+git add . = pega tudo que foi alterado em todos  os arquivos e deixa preparado para o commit
+
+ git add arquivo.php = para pegar apenas as  alterações deste arquivo
+
+ git commit -m "aki vai uma menssagem"
+
+ git status = para ver se tem algo a ser comitado
+
+ git log = para ver o historico de commits 
+
+ git checkout 6primeiros caracteres da hash = para voltar nas versões
+
+ git checkout master ou main = para voltar no seu ultimo commit
+
+ git branch -M main = para criar o ramo principal
+
+ git checkout -b nome-da-nova-branch = cria uma  nova brench levando o codigo inteiro da branch  Main
+
+ git checkout nome-da-branch = para navegar nas  branchs existentes
+
+ git branch = mostra a brench que vc esta  atualmente
+
+ git push origin nome da branch = para adicionar sua branch para o github
+
+ git diff = compara seu codigo atual com o ultimo  comit
+
+ git merge nome-da-branch = para juntar os   arquivos de uma branch para outra
+
+ git clone https://github.com/WilliamMatiasDeOliveira/teste-git.git = para clonar um repositorio para sua maquina
+
+ git pull origin = serve para deixar os arquivos da sua maquina sincronizados com o github
+
+
+
+
+
+ /***********   PARA CRIAR UM REPOSITORIO DO ZERO **************************/
+
+ 
+ git init = comando para iniciar o git
+
+ git add README.md = para adicionar instruções de  uso do codigo
+
+ git commit -m "first commit"
+
+ git branch -M main = para criar o ramo principal
+
+ git remote add origin https://github.com/WilliamMatiasDeOliveira/teste-git.git = para linkar os repositorios da sua maquina  ao repositorio criado no github
+
+git pull origin main --allow-unrelated-histories = "SE DER ERRO"
+
+
+ git push -u origin main
+
+/**********************************************************************************************************************/
+
+
+
+/********** PARA UM REPOSITORIO JÁ EXISTENTE *************************************************************************/
+
+ git remote add origin https://github.com/WilliamMatiasDeOliveira/teste-git.git
+
+ git branch -M main
+
+ git push -u origin main
+
+************************************************************************************************************************/
+
+ 
+ 
